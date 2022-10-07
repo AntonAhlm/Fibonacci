@@ -23,7 +23,7 @@ while a<40:
            
 
 
-    while a>=9 and a<26:
+    while a>=9 and a<26:  #Nästa stycke blev förskjutet en \t eftersom det var för långa tal. Lade till så att resten av programmet också är +1 \t och är i en rak linje
          a+=1
          if a % 2 == 0:
             print("Tal",a,":",tal1, "\t\t Kvot:",tal1/tal2  )
